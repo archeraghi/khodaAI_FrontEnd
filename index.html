@@ -35,22 +35,56 @@
 </head>
 <body class="font-sans text-kh-ink bg-white">
 
-  <!-- Header -->
+    <!-- Header -->
   <header class="sticky top-0 z-50 backdrop-blur border-b border-black/5 bg-white/80">
     <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+
+      <!-- Logo -->
       <a href="#top" class="flex items-center gap-0">
-        <img src="images/logo.png" alt="Khoda AI logo" class="h-20 w-auto" />
+        <img src="./images/logo.png" alt="Khoda AI logo" class="h-20 w-auto" />
         <span class="text-lg font-semibold">Khoda <span class="text-kh-bright">AI</span></span>
       </a>
+
+      <!-- Desktop Menu -->
       <ul class="hidden md:flex items-center gap-7 text-sm">
         <li><a href="#mission" class="hover:text-kh-bright">Mission</a></li>
         <li><a href="#vision" class="hover:text-kh-bright">Vision</a></li>
-        <li><a href="#founder" class="hover:text-kh-bright">Founder</a></li>
+        <li><a href="#lifetoy" class="hover:text-kh-bright">Flagship</a></li>
         <li><a href="#approach" class="hover:text-kh-bright">Approach</a></li>
+        <li><a href="#founder" class="hover:text-kh-bright">Founder</a></li>
         <li><a href="#contact" class="hover:text-kh-bright">Contact</a></li>
       </ul>
+
+      <!-- Mobile Hamburger -->
+      <button id="menu-btn" class="md:hidden flex items-center px-3 py-2 border rounded text-kh-ink border-kh-mute hover:text-kh-bright hover:border-kh-bright">
+        <svg class="fill-current h-5 w-5" viewBox="0 0 20 20">
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+        </svg>
+      </button>
     </nav>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4 bg-white/95 border-t border-black/5">
+      <ul class="flex flex-col gap-4 text-sm">
+        <li><a href="#mission" class="hover:text-kh-bright">Mission</a></li>
+        <li><a href="#vision" class="hover:text-kh-bright">Vision</a></li>
+        <li><a href="#lifetoy" class="hover:text-kh-bright">Flagship</a></li>
+        <li><a href="#approach" class="hover:text-kh-bright">Approach</a></li>
+        <li><a href="#founder" class="hover:text-kh-bright">Founder</a></li>
+        <li><a href="#contact" class="hover:text-kh-bright">Contact</a></li>
+      </ul>
+    </div>
   </header>
+
+  <script>
+    // Mobile menu toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
 
 <!-- Hero -->
 <section id="top" class="relative overflow-hidden bg-kh-blush/30">
