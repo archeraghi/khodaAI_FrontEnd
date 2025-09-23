@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khoda AI — Love, Wisdom, Empowerment</title>
+  <meta name="description" content="Khoda AI is founded by Dr. Ahmad Reza Cheraghi to empower human beings with AI tools that help us grow in love, wisdom, and self-realization." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] },
+          colors: {
+            kh: {
+              dark: "#5B0E14",
+              base: "#8E1C24",
+              bright: "#C62832",
+              blush: "#F9E9EB",
+              ink: "#0B0B0C",
+              mute: "#6B6E77",
+            }
+          },
+          boxShadow: {
+            glow: "0 10px 30px -10px rgba(198,40,50,.35)"
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="/favicon.ico" />
+</head>
+<body class="font-sans text-kh-ink bg-white">
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur border-b border-black/5 bg-white/80">
+    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <a href="#top" class="flex items-center gap-0">
+        <img src="images/logo.png" alt="Khoda AI logo" class="h-20 w-auto" />
+        <span class="text-lg font-semibold">Khoda <span class="text-kh-bright">AI</span></span>
+      </a>
+      <ul class="hidden md:flex items-center gap-7 text-sm">
+        <li><a href="#mission" class="hover:text-kh-bright">Mission</a></li>
+        <li><a href="#vision" class="hover:text-kh-bright">Vision</a></li>
+        <li><a href="#founder" class="hover:text-kh-bright">Founder</a></li>
+        <li><a href="#approach" class="hover:text-kh-bright">Approach</a></li>
+        <li><a href="#contact" class="hover:text-kh-bright">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hero -->
+<section id="top" class="relative overflow-hidden bg-kh-blush/30">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+    <div class="grid lg:grid-cols-2 gap-4 items-center">
+      
+      <!-- Right on desktop, First on mobile: Logo -->
+      <div class="relative flex justify-center order-1 lg:order-2">
+        <div class="absolute -inset-10 bg-kh-bright/10 blur-3xl rounded-full"></div>
+        <img src="images/logo.png" alt="Khoda AI Logo"
+             class="w-full h-auto rounded-2xl object-contain"  />
+      </div>
+
+      <!-- Left on desktop, Second on mobile: Heading + Text -->
+      <div class="order-2 lg:order-1 text-center lg:text-left">
+        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+          In <span class="text-kh-bright">God </span> We Trust.<br />
+          With <span class="text-kh-bright">Khoda AI</span> We Grow.
+        </h1>
+        <p class="mt-6 text-lg text-kh-mute max-w-xl mx-auto lg:mx-0">
+          Khoda means <em>God</em> in Farsi. Our name reflects the belief that through love, wisdom, 
+          and self-improvement, human beings can rise to their highest potential.  
+          Khoda AI provides tools that empower people on that journey.
+        </p>
+        <div class="mt-8 flex justify-center lg:justify-start gap-4">
+          <a href="#mission" class="px-6 py-3 rounded-xl bg-kh-bright text-white font-medium shadow-glow hover:opacity-90">Learn More</a>
+          <a href="#contact" class="px-6 py-3 rounded-xl border font-medium hover:bg-black/5">Get in Touch</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    
+  <!-- Mission -->
+  <section id="mission" class="py-20 bg-gradient-to-b from-white to-kh-blush/40">
+    <div class="mx-auto max-w-5xl px-4 text-center">
+      <h2 class="text-3xl font-bold">Our Mission</h2>
+      <p class="mt-4 text-kh-mute text-lg leading-relaxed">
+        Khoda AI exists to help human beings evolve. We build AI that fosters love, knowledge, and wisdom — 
+        guiding people from the primitive parts of themselves toward a more enlightened, balanced, and empowered future.  
+        Our mission is simple: to create technology that amplifies human goodness.
+      </p>
+    </div>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision" class="py-20">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl font-bold text-center">Our Vision</h2>
+      <p class="mt-4 text-center text-kh-mute max-w-3xl mx-auto">
+        We envision a world where AI is not just a tool, but a companion in the human journey —  
+        helping each of us cultivate emotional balance, intellectual growth, and spiritual strength.  
+        By combining human hearts with artificial intelligence, we can build communities rooted in unity, 
+        compassion, and progress.
+      </p>
+    </div>
+  </section>
+
+    <!-- Product: LifeToy.ai Bearie -->
+  <section id="lifetoy" class="py-20 bg-kh-blush/20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+
+      <!-- Title -->
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold">
+          Khoda AI LLC — First Flagship Product
+        </h2>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+
+        <!-- Image -->
+        <div class="relative flex justify-center">
+          <div class="absolute -inset-6 bg-kh-bright/10 blur-2xl rounded-full"></div>
+          <img src="./images/bearie.png" alt="LifeToy.ai Bearie" class="relative rounded-3xl shadow-lg w-full max-w-md object-contain" />
+        </div>
+
+        <!-- Text -->
+        <div>
+          <h3 class="text-2xl font-semibold text-kh-bright">
+            LifeToy.ai — Bearie
+          </h3>
+          <p class="mt-6 text-kh-mute text-lg leading-relaxed">
+            <b>Bearie</b> is the first flagship product of Khoda AI LLC — a real-time AI companion designed
+            especially for children. Bearie listens, responds, and engages with kids in natural conversation,
+            helping them grow in <em>speech, confidence, and emotional balance</em>.
+          </p>
+          <p class="mt-4 text-kh-mute text-lg leading-relaxed">
+            Unlike traditional toys, Bearie evolves with every interaction. It’s not just a toy —
+            it’s a <em>trusted friend</em> that empowers children to express themselves,
+            learn through play, and feel supported at every step.
+          </p>
+          <div class="mt-8">
+            <a href="https://lifetoy.ai" target="_blank"
+               class="inline-flex items-center px-6 py-3 rounded-xl bg-kh-bright text-white font-medium shadow-glow hover:opacity-90">
+              Explore LifeToy.ai
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Approach -->
+  <section id="approach" class="py-20">
+    <div class="mx-auto max-w-6xl px-4">
+      <h2 class="text-3xl font-bold text-center">Our Approach</h2>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="rounded-2xl border p-6 shadow-sm bg-white">
+          <h3 class="font-semibold">Love at the Core</h3>
+          <p class="mt-2 text-sm text-kh-mute">The heart in our logo represents unity and love — the foundation of every Khoda AI design.</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm bg-white">
+          <h3 class="font-semibold">Empowerment Through AI</h3>
+          <p class="mt-2 text-sm text-kh-mute">Our tools are built to help individuals learn, grow, and improve themselves, day by day.</p>
+        </div>
+        <div class="rounded-2xl border p-6 shadow-sm bg-white">
+          <h3 class="font-semibold">Wisdom in Action</h3>
+          <p class="mt-2 text-sm text-kh-mute">By integrating knowledge, creativity, and self-discipline, we create a pathway to higher human potential.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Founder -->
+<section id="founder" class="py-20 bg-white">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <!-- Image -->
+        <div class="relative">
+          <img src="images/me.jpg" alt="Founder photo" class="rounded-3xl shadow-lg w-full h-auto object-cover" />
+        </div>
+        <!-- Text -->
+        <div>
+      <h2 class="text-3xl font-bold text-center">A Note from the Founder</h2>
+      <p class="mt-6 text-kh-mute text-lg leading-relaxed">
+        I am <b>Dr. Ahmad Reza Cheraghi</b>. Throughout my life, I have sought to empower human beings.  
+        My journey — from Iran to Germany to the United States — has always been guided by the belief that 
+        knowledge, creativity, and love are the keys to our evolution.  
+      </p>
+      <p class="mt-4 text-kh-mute text-lg leading-relaxed">
+        I created Khoda AI because I believe we can use artificial intelligence not to replace humanity, 
+        but to bring out the best in it. With Khoda AI, my aim is to provide tools that help us become 
+        <em>the Gods of our own being</em> — capable of greater wisdom, deeper empathy, and stronger unity.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-kh-blush/30">
+    <div class="mx-auto max-w-4xl px-4 text-center">
+      <h2 class="text-3xl font-bold">Let’s Build Together</h2>
+      <p class="mt-4 text-kh-mute text-lg">
+        Whether you are an educator, innovator, or dreamer — Khoda AI is here to collaborate in shaping a more empowered future.  
+        Reach out and let’s connect.
+      </p>
+      <a href="mailto:info@khoda.ai" class="mt-6 inline-flex items-center rounded-xl bg-kh-bright text-white px-6 py-3 font-medium shadow hover:opacity-90">Email Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-white">
+    <div class="mx-auto max-w-7xl px-4 py-6 text-center text-sm text-kh-mute">
+      © <span id="year"></span> Khoda AI LLC · Founded with ❤️ by Dr. Ahmad Reza Cheraghi
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
