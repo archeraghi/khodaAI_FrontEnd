@@ -3,45 +3,94 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Khoda AI — Love, Wisdom, Empowerment, and Growth</title>
-  <meta name="description" content="Khoda AI is founded by Dr. Ahmad Reza Cheraghi to empower human beings with AI tools that help us grow in love, wisdom, and self-realization." />
-
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: { sans: ["Inter", "ui-sans-serif", "system-ui"] },
-          colors: {
-            kh: {
-              dark: "#5B0E14",
-              base: "#8E1C24",
-              bright: "#C62832",
-              blush: "#F9E9EB",
-              ink: "#0B0B0C",
-              mute: "#6B6E77",
-            }
+  <title>Khoda AI | AI for Human Growth &amp; Creators of LifeToy</title>
+  <meta name="description" content="Khoda AI builds AI tools for learning, creativity, and human growth. Meet the company behind LifeToy and Bearie, founded by Dr. Ahmad Reza Cheraghi." />
+  <link rel="canonical" href="https://khoda.ai/" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="theme-color" content="#C62832" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Khoda AI" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://khoda.ai/" />
+  <meta property="og:title" content="Khoda AI | AI for Human Growth &amp; Creators of LifeToy" />
+  <meta property="og:description" content="Khoda AI builds AI tools for learning, creativity, and human growth. Meet the company behind LifeToy and Bearie, founded by Dr. Ahmad Reza Cheraghi." />
+  <meta property="og:image" content="https://khoda.ai/images/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:image:alt" content="Khoda AI heart logo" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Khoda AI | AI for Human Growth &amp; Creators of LifeToy" />
+  <meta name="twitter:description" content="Khoda AI builds AI tools for learning, creativity, and human growth. Meet the company behind LifeToy and Bearie, founded by Dr. Ahmad Reza Cheraghi." />
+  <meta name="twitter:image" content="https://khoda.ai/images/logo.png" />
+  <meta name="twitter:image:alt" content="Khoda AI heart logo" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://khoda.ai/#organization",
+          "name": "Khoda AI",
+          "legalName": "Khoda AI LLC",
+          "url": "https://khoda.ai/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://khoda.ai/images/logo.png",
+            "width": 1024,
+            "height": 1024
           },
-          boxShadow: {
-            glow: "0 10px 30px -10px rgba(198,40,50,.35)"
+          "description": "Khoda AI builds AI tools for learning, creativity, and human growth. It is the company behind LifeToy and Bearie.",
+          "email": "info@khoda.ai",
+          "founder": { "@id": "https://khoda.ai/#founder" },
+          "brand": {
+            "@type": "Brand",
+            "name": "LifeToy",
+            "url": "https://lifetoy.ai/"
           }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://khoda.ai/#founder",
+          "name": "Dr. Ahmad Reza Cheraghi",
+          "url": "https://khoda.ai/#founder",
+          "image": "https://khoda.ai/images/me.jpg"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://khoda.ai/#website",
+          "name": "Khoda AI",
+          "url": "https://khoda.ai/",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://khoda.ai/#organization" }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://khoda.ai/#webpage",
+          "url": "https://khoda.ai/",
+          "name": "Khoda AI | AI for Human Growth & Creators of LifeToy",
+          "description": "Khoda AI builds AI tools for learning, creativity, and human growth. Meet the company behind LifeToy and Bearie, founded by Dr. Ahmad Reza Cheraghi.",
+          "inLanguage": "en",
+          "isPartOf": { "@id": "https://khoda.ai/#website" },
+          "about": { "@id": "https://khoda.ai/#organization" }
         }
-      }
+      ]
     }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="/favicon.ico" />
+
+  <link rel="stylesheet" href="/assets/site.css" />
+  <link rel="preload" href="/fonts/inter-latin-wght-400-800.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon.png" />
 </head>
 <body class="font-sans text-kh-ink bg-white">
 
     <!-- Header -->
   <header class="sticky top-0 z-50 backdrop-blur border-b border-black/5 bg-white/80">
-    <nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+    <nav aria-label="Main navigation" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
 
       <!-- Logo -->
       <a href="#top" class="flex items-center gap-0">
-        <img src="./images/logo.png" alt="Khoda AI logo" class="h-20 w-auto" />
+        <img src="./images/logo.webp" width="1024" height="1024" alt="Khoda AI logo" class="h-20 w-auto" />
         <span class="text-lg font-semibold">Khoda <span class="text-kh-bright">AI</span></span>
       </a>
 
@@ -56,8 +105,8 @@
       </ul>
 
       <!-- Mobile Hamburger -->
-      <button id="menu-btn" class="md:hidden flex items-center px-3 py-2 border rounded text-kh-ink border-kh-mute hover:text-kh-bright hover:border-kh-bright">
-        <svg class="fill-current h-5 w-5" viewBox="0 0 20 20">
+      <button id="menu-btn" type="button" aria-label="Toggle navigation" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden flex items-center px-3 py-2 border rounded text-kh-ink border-kh-mute hover:text-kh-bright hover:border-kh-bright">
+        <svg aria-hidden="true" class="fill-current h-5 w-5" viewBox="0 0 20 20">
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
         </svg>
       </button>
@@ -82,10 +131,18 @@
     const mobileMenu = document.getElementById('mobile-menu');
 
     menuBtn.addEventListener('click', () => {
-      mobileMenu.classList.toggle('hidden');
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(!isHidden));
+    });
+    mobileMenu.addEventListener('click', (event) => {
+      if (event.target.closest('a')) {
+        mobileMenu.classList.add('hidden');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
     });
   </script>
 
+<main>
 <!-- Hero -->
 <section id="top" class="relative overflow-hidden bg-kh-blush/30">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
@@ -94,16 +151,22 @@
       <!-- Right on desktop, First on mobile: Logo -->
       <div class="relative flex justify-center order-1 lg:order-2">
         <div class="absolute -inset-10 bg-kh-bright/10 blur-3xl rounded-full"></div>
-        <img src="images/logo.png" alt="Khoda AI Logo"
+        <img src="images/logo.webp" width="1024" height="1024" fetchpriority="high" alt="Khoda AI heart logo"
              class="w-full h-auto rounded-2xl object-contain"  />
       </div>
 
       <!-- Left on desktop, Second on mobile: Heading + Text -->
       <div class="order-2 lg:order-1 text-center lg:text-left">
-        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight">
+        <h1 class="text-xl sm:text-2xl font-bold text-kh-bright">Khoda AI — AI for Human Growth</h1>
+        <p class="mt-4 text-4xl sm:text-6xl font-extrabold leading-tight">
           In <span class="text-kh-bright">God </span> We Trust.<br />
           With <span class="text-kh-bright">Khoda AI</span> We Grow.
-        </h1>
+        </p>
+        <p class="mt-6 text-lg text-kh-mute max-w-xl mx-auto lg:mx-0">
+          We build artificial intelligence tools for learning, creativity, and personal growth.
+          Khoda AI LLC is the company behind <a href="#lifetoy" class="underline hover:text-kh-bright">LifeToy and Bearie</a>,
+          bringing conversational AI into everyday play.
+        </p>
         <p class="mt-6 text-lg text-kh-mute max-w-xl mx-auto lg:mx-0">
           Khoda means <em>God</em> in Farsi. Our name reflects the belief that through love, wisdom, 
           and self-improvement, human beings can rise to their highest potential.  
@@ -151,7 +214,7 @@
       <!-- Title -->
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold">
-          Khoda AI LLC — First Flagship Product
+          LifeToy — AI Toys by Khoda AI
         </h2>
       </div>
 
@@ -160,28 +223,28 @@
         <!-- Image -->
         <div class="relative flex justify-center">
           <div class="absolute -inset-6 bg-kh-bright/10 blur-2xl rounded-full"></div>
-          <img src="./images/bearie.png" alt="LifeToy.ai Bearie" class="relative rounded-3xl shadow-lg w-full max-w-md object-contain" />
+          <img src="./images/bearie.webp" width="1024" height="1024" loading="lazy" decoding="async" alt="Bearie, the LifeToy AI teddy bear by Khoda AI" class="relative rounded-3xl shadow-lg w-full max-w-md h-auto object-contain" />
         </div>
 
         <!-- Text -->
         <div>
           <h3 class="text-2xl font-semibold text-kh-bright">
-            LifeToy.ai — Bearie
+            Bearie — A Conversational AI Teddy Bear
           </h3>
           <p class="mt-6 text-kh-mute text-lg leading-relaxed">
-            <b>Bearie</b> is the first flagship product of Khoda AI LLC — a real-time AI companion designed
-            especially for children. Bearie listens, responds, and engages with kids in natural conversation,
-            helping them grow in <em>speech, confidence, and emotional balance</em>.
+            <b>Bearie</b> is the first flagship product of Khoda AI LLC — an AI plush toy and
+            real-time conversational companion designed especially for children. Through LifeToy,
+            Bearie listens and responds to spoken questions, inviting children to explore ideas,
+            tell stories, and learn through play.
           </p>
           <p class="mt-4 text-kh-mute text-lg leading-relaxed">
-            Unlike traditional toys, Bearie evolves with every interaction. It’s not just a toy —
-            it’s a <em>trusted friend</em> that empowers children to express themselves,
-            learn through play, and feel supported at every step.
+            LifeToy connects a familiar plush toy with voice interaction. Visit LifeToy.ai to explore
+            the product, learn how it works, and find current details about its features and availability.
           </p>
           <div class="mt-8">
-            <a href="https://lifetoy.ai" target="_blank"
+            <a href="https://lifetoy.ai/" target="_blank" rel="noopener"
                class="inline-flex items-center px-6 py-3 rounded-xl bg-kh-bright text-white font-medium shadow-glow hover:opacity-90">
-              Explore LifeToy.ai
+              Explore LifeToy AI Toys
             </a>
           </div>
         </div>
@@ -216,11 +279,11 @@
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <!-- Image -->
         <div class="relative">
-          <img src="images/me.jpg" alt="Founder photo" class="rounded-3xl shadow-lg w-full h-auto object-cover" />
+          <img src="images/me.webp" width="1320" height="1287" loading="lazy" decoding="async" alt="Dr. Ahmad Reza Cheraghi, founder of Khoda AI" class="rounded-3xl shadow-lg w-full h-auto object-cover" />
         </div>
         <!-- Text -->
         <div>
-      <h2 class="text-3xl font-bold text-center">A Note from the Founder</h2>
+      <h2 class="text-3xl font-bold text-center">Our Founder: Dr. Ahmad Reza Cheraghi</h2>
       <p class="mt-6 text-kh-mute text-lg leading-relaxed">
         I am <b>Dr. Ahmad Reza Cheraghi</b>. Throughout my life, I have sought to empower human beings.  
         My journey — from Iran to Germany to the United States — has always been guided by the belief that 
@@ -231,6 +294,8 @@
         but to bring out the best in it. With Khoda AI, my aim is to provide tools that help us become 
         <em>the Gods of our own being</em> — capable of greater wisdom, deeper empathy, and stronger unity.
       </p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -246,6 +311,8 @@
       <a href="mailto:info@khoda.ai" class="mt-6 inline-flex items-center rounded-xl bg-kh-bright text-white px-6 py-3 font-medium shadow hover:opacity-90">Email Us</a>
     </div>
   </section>
+
+  </main>
 
   <!-- Footer -->
   <footer class="border-t bg-white">
