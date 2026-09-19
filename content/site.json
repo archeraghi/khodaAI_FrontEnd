@@ -52,7 +52,7 @@
     ],
     "contactTitle": "Build a connected toy with us",
     "contact": "Tell us about your character, toy design, intended audience and the experience you want to create. We can start a conversation about how hardware, voice and software fit your project.",
-    "email": "Email Khoda AI",
+    "email": "Contact us: info@khoda.ai",
     "visit": "Visit LifeToy.ai",
     "footer": "Khoda AI LLC · Founded by Dr. Ahmad Reza Cheraghi",
     "logoAlt": "Khoda AI heart logo",
@@ -138,7 +138,26 @@
     "visionTitle": "Our vision",
     "vision": [
       "We envision AI as a companion in the human journey, supporting emotional balance, intellectual growth and spiritual strength. By bringing human hearts and artificial intelligence together, we aim to help build communities rooted in unity, compassion and progress."
-    ]
+    ],
+    "homeAppTitle": "A mobile app and a marketplace for character experiences",
+    "homeApp": [
+      "The LifeToy mobile app brings character discovery, voice conversations and supported toy setup together. App Store and Google Play releases are coming soon.",
+      "We are also developing a partner marketplace where businesses can offer plush toys powered by LifeToy and digital character experiences. The planned shopping journey lets visitors meet a character, ask product questions and choose an offering with or without hardware."
+    ],
+    "homeAppLink": "Our mobile app and marketplace plans",
+    "appTitle": "LifeToy mobile app: a character experience in your pocket",
+    "app": [
+      "Discover characters and start voice conversations through the LifeToy mobile app, including character experiences that do not require a physical toy. For supported LifeToy hardware, the app also brings setup and connection controls into the same place.",
+      "We are preparing the mobile app for release on the App Store and Google Play. Store downloads are coming soon; there is no announced launch date. Hardware support and available character features depend on the specific product."
+    ],
+    "appStoreStatus": "App Store — coming soon",
+    "googlePlayStatus": "Google Play — coming soon",
+    "marketplaceTitle": "A planned marketplace for LifeToy partners",
+    "marketplace": [
+      "Khoda AI is developing the LifeToy Marketplace so business partners can present their characters and sell plush toys that use LifeToy technology. Our goal is to connect the character experience with a clear product description and a choice of offerings.",
+      "The planned visitor journey is to talk with a character, ask questions about the product and choose an offering with or without LifeToy hardware. The planned range includes digital character experiences and physical plush toys; each listing will explain what is included and which features it supports. Marketplace purchasing is planned and is not yet available as a complete live service."
+    ],
+    "marketplaceLink": "Explore LifeToy and its partner plans"
   },
   "de": {
     "locale": "de_DE",
@@ -193,7 +212,7 @@
     ],
     "contactTitle": "Gemeinsam ein vernetztes Spielzeug entwickeln",
     "contact": "Erzählen Sie uns von Ihrem Charakter, dem Spielzeugdesign, der Zielgruppe und dem gewünschten Erlebnis. Gemeinsam können wir besprechen, wie Hardware, Sprache und Software zu Ihrem Projekt passen.",
-    "email": "E-Mail an Khoda AI",
+    "email": "Kontakt: info@khoda.ai",
     "visit": "LifeToy.ai besuchen",
     "footer": "Khoda AI LLC · Gegründet von Dr. Ahmad Reza Cheraghi",
     "logoAlt": "Das Herzlogo von Khoda AI",
@@ -279,7 +298,26 @@
     "visionTitle": "Unsere Vision",
     "vision": [
       "Wir sehen KI als Begleiter auf dem menschlichen Lebensweg, der emotionale Ausgeglichenheit, geistige Entwicklung und spirituelle Stärke unterstützen kann. Indem wir menschliche Herzlichkeit und künstliche Intelligenz verbinden, möchten wir zu Gemeinschaften beitragen, die von Zusammenhalt, Mitgefühl und Fortschritt geprägt sind."
-    ]
+    ],
+    "homeAppTitle": "Eine mobile App und ein Marktplatz für Charaktererlebnisse",
+    "homeApp": [
+      "Die LifeToy-App verbindet das Entdecken von Charakteren, Sprachgespräche und die Einrichtung unterstützter Spielzeuge. Die Veröffentlichungen im App Store und bei Google Play folgen in Kürze.",
+      "Außerdem entwickeln wir einen Partner-Marktplatz für Plüschtiere mit LifeToy-Technologie und digitale Charaktererlebnisse. Geplant ist, dass Besucher einen Charakter kennenlernen, Produktfragen stellen und ein Angebot mit oder ohne Hardware auswählen können."
+    ],
+    "homeAppLink": "Unsere Pläne für App und Marktplatz",
+    "appTitle": "LifeToy-App: Charaktererlebnisse für unterwegs",
+    "app": [
+      "Mit der LifeToy-App können Sie Charaktere entdecken und Sprachgespräche beginnen, auch bei Charaktererlebnissen ohne physisches Spielzeug. Für unterstützte LifeToy-Hardware bündelt die App außerdem Einrichtung und Verbindungssteuerung.",
+      "Wir bereiten die mobile App für den App Store und Google Play vor. Die Downloads folgen in Kürze; ein Veröffentlichungstermin steht noch nicht fest. Unterstützte Hardware und verfügbare Charakterfunktionen hängen vom jeweiligen Produkt ab."
+    ],
+    "appStoreStatus": "App Store — demnächst",
+    "googlePlayStatus": "Google Play — demnächst",
+    "marketplaceTitle": "Ein geplanter Marktplatz für LifeToy-Partner",
+    "marketplace": [
+      "Khoda AI entwickelt den LifeToy Marketplace, damit Geschäftspartner ihre Charaktere präsentieren und Plüschtiere mit LifeToy-Technologie verkaufen können. Unser Ziel ist es, das Charaktererlebnis mit einer klaren Produktbeschreibung und passenden Angeboten zu verbinden.",
+      "Besucher sollen mit einem Charakter sprechen, Fragen zum Produkt stellen und ein Angebot mit oder ohne LifeToy-Hardware kaufen können. Geplant sind digitale Charaktererlebnisse und physische Plüschtiere; jedes Angebot wird seinen Lieferumfang und die unterstützten Funktionen beschreiben. Die Kauffunktion des Marktplatzes ist geplant und noch nicht als vollständiger öffentlicher Dienst verfügbar."
+    ],
+    "marketplaceLink": "LifeToy und die Pläne für Partner entdecken"
   },
   "zh": {
     "locale": "zh_CN",
@@ -334,7 +372,7 @@
     ],
     "contactTitle": "与我们一起开发联网玩具",
     "contact": "向我们介绍您的角色、玩具设计、目标用户和希望创造的体验。我们可以从硬件、语音和软件如何适配您的项目开始讨论。",
-    "email": "发送邮件给 Khoda AI",
+    "email": "联系我们：info@khoda.ai",
     "visit": "访问 LifeToy.ai",
     "footer": "Khoda AI LLC · 由 Dr. Ahmad Reza Cheraghi 创立",
     "logoAlt": "Khoda AI 爱心标志",
@@ -420,6 +458,25 @@
     "visionTitle": "我们的愿景",
     "vision": [
       "我们希望人工智能成为人生成长旅程中的伙伴，支持情绪平衡、知识发展和精神力量。通过将人心与人工智能结合，我们希望助力建立以团结、关爱和进步为基础的社区。"
-    ]
+    ],
+    "homeAppTitle": "移动应用与角色体验商城",
+    "homeApp": [
+      "LifeToy 移动应用将角色发现、语音对话和受支持玩具的设置整合在一起。App Store 和 Google Play 版本即将推出。",
+      "我们也正在开发合作伙伴商城，让企业展示搭载 LifeToy 技术的毛绒玩具和数字角色体验。计划中的购物流程将让访客认识角色、询问产品问题，并选择包含或不包含硬件的产品。"
+    ],
+    "homeAppLink": "了解我们的应用与商城计划",
+    "appTitle": "LifeToy 移动应用：随身的角色体验",
+    "app": [
+      "通过 LifeToy 移动应用发现角色并开始语音对话，其中也包括无需实体玩具的角色体验。对于受支持的 LifeToy 硬件，应用还提供统一的设置和连接控制入口。",
+      "我们正在为 App Store 和 Google Play 发布做准备。应用下载即将开放，尚未公布具体日期。支持的硬件和可用的角色功能取决于具体产品。"
+    ],
+    "appStoreStatus": "App Store — 即将推出",
+    "googlePlayStatus": "Google Play — 即将推出",
+    "marketplaceTitle": "面向 LifeToy 合作伙伴的商城计划",
+    "marketplace": [
+      "Khoda AI 正在开发 LifeToy Marketplace，让企业合作伙伴展示自己的角色，并销售采用 LifeToy 技术的毛绒玩具。我们希望将角色体验与清晰的产品说明及不同产品选项连接起来。",
+      "计划中的访客流程是先与角色交谈、询问产品问题，再选择包含或不包含 LifeToy 硬件的产品。计划中的产品类型包括数字角色体验和实体毛绒玩具；每个商品页面将说明所含内容和支持的功能。商城购买功能仍在规划中，尚未作为完整的公开服务提供。"
+    ],
+    "marketplaceLink": "了解 LifeToy 及合作伙伴计划"
   }
 }

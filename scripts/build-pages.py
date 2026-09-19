@@ -24,6 +24,13 @@ def cards(items, columns="md:grid-cols-2"):
         for title, body in items) + '</div>'
 
 
+def store_status(t):
+    # Informative text only: there are no public store listing URLs yet.
+    return '<div class="mt-6 flex flex-wrap gap-3">' + ''.join(
+        f'<span class="rounded-xl border border-black/10 bg-white px-4 py-3 text-sm font-semibold">{e(t[key])}</span>'
+        for key in ('appStoreStatus', 'googlePlayStatus')) + '</div>'
+
+
 def section(title, body, id="", pale=False, wide=False):
     return f'<section{f" id={chr(34)}{id}{chr(34)}" if id else ""} class="py-16 sm:py-20{ " bg-kh-blush/30" if pale else ""}"><div class="mx-auto {"max-w-6xl" if wide else "max-w-3xl"} px-5 sm:px-8"><h2 class="text-3xl font-bold leading-tight">{e(title)}</h2>{body}</div></section>'
 
@@ -70,6 +77,9 @@ def generate(lang, platform):
         content += section(t['meaningTitle'], paragraphs(t['meaning']))
         content += section(t['layersTitle'], paragraphs([t['layersIntro']]) + cards(t['layers']), wide=True)
         content += image_block(t['bearTitle'], paragraphs(t['bear']), t['bearAlt'], 'bearie')
+        content += section(t['appTitle'], paragraphs(t['app']) + store_status(t), id='app')
+        marketplace_link = f'<a href="{lifetoy}" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["marketplaceLink"])}</a>'
+        content += section(t['marketplaceTitle'], paragraphs(t['marketplace']) + marketplace_link, id='marketplace', pale=True)
         content += section(t['planningTitle'], cards(t['planning']), wide=True)
         faqs = ''.join(f'<details class="border-b border-black/10 py-5"><summary class="cursor-pointer text-lg font-semibold">{e(question)}</summary><p class="mt-3 text-kh-mute leading-relaxed">{e(answer)}</p></details>' for question, answer in t['faqs'])
         guides = ''.join(f'<a href="{lifetoy}{slug}" class="underline hover:text-kh-bright">{e(label)}</a>' for slug, label in zip(['ai-toys', 'ai-plushies'], t['guideLinks']))
@@ -78,6 +88,8 @@ def generate(lang, platform):
         content += section(t['missionTitle'], paragraphs(t['mission']), id='mission')
         product_text = paragraphs(t['homeProduct']) + f'<a href="{product}" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["homeProductLink"])}</a>'
         content += image_block(t['homeProductTitle'], product_text, t['bearAlt'], 'bearie')
+        app_link = f'<a href="{product}#app" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["homeAppLink"])}</a>'
+        content += section(t['homeAppTitle'], paragraphs(t['homeApp']) + store_status(t) + app_link, id='app')
         content += section(t['visionTitle'], paragraphs(t['vision']), id='vision')
         content += section(t['companyCardsTitle'], cards(t['companyCards'], 'md:grid-cols-3'), id='approach', wide=True)
         content += f'<section id="founder" class="py-16 sm:py-20"><div class="mx-auto max-w-6xl px-5 sm:px-8 grid md:grid-cols-2 gap-10 items-center"><img src="/images/me.webp" width="1320" height="1287" loading="lazy" decoding="async" alt="{e(t["founderAlt"])}" class="w-full h-auto rounded-3xl"/><div><h2 class="text-3xl font-bold leading-tight">{e(t["founderTitle"])}</h2>{paragraphs(t["founder"])}</div></div></section>'
