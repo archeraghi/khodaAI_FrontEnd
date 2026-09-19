@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://khoda.ai/</loc>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://khoda.ai/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/"/></url>
+  <url><loc>https://khoda.ai/lifetoy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/lifetoy/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/lifetoy/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/lifetoy/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/lifetoy/"/></url>
+  <url><loc>https://khoda.ai/de/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/"/></url>
+  <url><loc>https://khoda.ai/de/lifetoy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/lifetoy/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/lifetoy/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/lifetoy/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/lifetoy/"/></url>
+  <url><loc>https://khoda.ai/zh/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/"/></url>
+  <url><loc>https://khoda.ai/zh/lifetoy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://khoda.ai/lifetoy/"/><xhtml:link rel="alternate" hreflang="de" href="https://khoda.ai/de/lifetoy/"/><xhtml:link rel="alternate" hreflang="zh" href="https://khoda.ai/zh/lifetoy/"/><xhtml:link rel="alternate" hreflang="x-default" href="https://khoda.ai/lifetoy/"/></url>
 </urlset>

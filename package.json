@@ -4,8 +4,10 @@
   "private": true,
   "description": "Static Khoda AI website and its CSS build tools",
   "scripts": {
-    "build": "tailwindcss -c tailwind.config.cjs -i styles/site.css -o assets/site.css --minify",
-    "watch:css": "tailwindcss -c tailwind.config.cjs -i styles/site.css -o assets/site.css --watch"
+    "build": "npm run build:pages && tailwindcss -c tailwind.config.cjs -i styles/site.css -o assets/site.css --minify && npm run check",
+    "watch:css": "tailwindcss -c tailwind.config.cjs -i styles/site.css -o assets/site.css --watch",
+    "build:pages": "python3 scripts/build-pages.py",
+    "check": "python3 scripts/check-site.py"
   },
   "devDependencies": {
     "tailwindcss": "3.4.19"

@@ -14,7 +14,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Keep section headings below the sticky navigation when following anchors. */
+/* Keep keyboard focus visible and let navigation wrap on small screens. */
 main > section {
   scroll-margin-top: 7rem;
 }
+
+:focus-visible { outline: 3px solid #C62832; outline-offset: 4px; }
+.skip-link { position: absolute; top: -5rem; left: 1rem; z-index: 100; background: white; padding: 0.75rem 1rem; }
+.skip-link:focus { top: 1rem; }
+body { overflow-wrap: break-word; }

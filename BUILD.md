@@ -1,31 +1,50 @@
-# Building the static website styles
+# Building the static website
 
-The website serves ordinary HTML, images, and a precompiled stylesheet. It does
-not need a browser-side Tailwind compiler, JavaScript framework, or Node.js on
-the web server.
-
-Install the pinned development dependency and rebuild the stylesheet:
+The site serves ordinary HTML, images and a precompiled stylesheet. No browser
+framework, JavaScript compiler or Node.js runtime is required on the web server.
 
 ```sh
 npm ci
 npm run build
 ```
 
-Tailwind scans the complete class names in `index.html`, using the theme in
-`tailwind.config.cjs` and the extra CSS in `styles/site.css`. The minified output
-is `assets/site.css`. Rebuild it whenever those source files change. Include the
-generated stylesheet with the website when deploying; do not deploy
-`node_modules`.
+The build runs `scripts/build-pages.py`, compiles Tailwind CSS and runs
+`scripts/check-site.py`. Python 3.12+ and Node.js are build-time dependencies.
 
-For local editing, `npm run watch:css` rebuilds when the source changes. Run
-`npm run build` once more before deployment to produce the minified stylesheet.
+## Editing content
 
-The page loads the result with this element in its `<head>`:
+Edit the reviewed English, German and Simplified Chinese copy in
+`content/site.json` and the shared HTML layout in `scripts/build-pages.py`.
+The six generated public pages are:
 
-```html
-<link rel="stylesheet" href="/assets/site.css" />
-```
+- `/` and `/lifetoy/`
+- `/de/` and `/de/lifetoy/`
+- `/zh/` and `/zh/lifetoy/`
 
-The build uses the official [Tailwind CSS 3 CLI](https://v3.tailwindcss.com/docs/installation)
-with the exact dependency version and transitive dependencies recorded in
-`package-lock.json`.
+The generator writes their `index.html` files and `sitemap.xml`. It supplies
+page-specific metadata, self-canonicals, reciprocal language alternates and
+Organization, Person, WebSite and WebPage structured data. The platform pages
+also include breadcrumbs. Do not edit the generated HTML directly.
+
+Tailwind scans all six HTML pages using `tailwind.config.cjs` and
+`styles/site.css`. The compiled output is `assets/site.css`. Commit generated
+HTML, the sitemap and CSS together with their sources. `npm run check` verifies
+metadata, language groups, local links and anchors, sitemap coverage, structured
+data, ownership verification and the deployment allowlist.
+
+`npm run watch:css` watches CSS changes during local editing. Run
+`npm run build:pages` after a content change and `npm run build` before release.
+For a loopback preview, run `python3 -m http.server 8879 --bind 127.0.0.1`.
+
+## Deploying
+
+Use the existing DigitalOcean/Nginx deployment flow in `deploy/deploy.py`.
+The helper copies only its 20 allowlisted public assets, including all six
+pages and the unchanged Google ownership file. It validates the expected host
+configuration, atomically switches releases and rolls back on failure. Run
+its dry run against the actual host before publishing a pinned revision.
+The repository's old Azure workflow is not the current production path.
+
+Do not deploy `node_modules`, content sources, build scripts or evidence files.
+Production uses only the generated public artifacts. See
+`docs/SEO-2026-09-19.md` for this release's scope and remaining live checks.

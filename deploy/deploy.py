@@ -26,7 +26,8 @@ import tempfile
 SITE = Path("/var/www/khoda-ai")
 CONFIG_LINK = Path("/etc/nginx/sites-enabled/khoda-ai")
 PUBLIC_FILES = (
-    "index.html", "robots.txt", "sitemap.xml", "favicon.png",
+    "index.html", "lifetoy/index.html", "de/index.html", "de/lifetoy/index.html",
+    "zh/index.html", "zh/lifetoy/index.html", "robots.txt", "sitemap.xml", "favicon.png",
     "google0cbd976d77731379.html", "assets/site.css",
     "images/logo.png", "images/bearie.png", "images/me.jpg",
     "images/logo.webp", "images/bearie.webp", "images/me.webp",
@@ -45,8 +46,8 @@ CONFIG_ADDITION = r'''
         return 301 https://khoda.ai$request_uri;
     }
     # $request_uri stays original when index.html is selected internally.
-    if ($request_uri ~ "^/index[.]html(?:[?]|$)") {
-        return 301 https://khoda.ai/$is_args$args;
+    if ($request_uri ~ "^(/(?:de/|zh/)?(?:lifetoy/)?)index[.]html(?:[?]|$)") {
+        return 301 https://khoda.ai$1$is_args$args;
     }
 
     gzip on;
@@ -189,9 +190,16 @@ def check_live(release):
         return body, int(code), redirect.decode()
 
     for relative in PUBLIC_FILES:
-        body, code, _ = request("/" if relative == "index.html" else f"/{relative}")
+        public_path = "/" + relative.removesuffix("index.html") if relative.endswith("index.html") else f"/{relative}"
+        body, code, _ = request(public_path)
         require(code == 200 and body == (release / relative).read_bytes(),
                 f"Live content differs for {relative} (HTTP {code})")
+    for relative in PUBLIC_FILES:
+        if relative.endswith("index.html"):
+            canonical = "https://khoda.ai/" + relative.removesuffix("index.html")
+            _, code, redirect = request(f"/{relative}?deploy=check")
+            require(code == 301 and redirect == canonical + "?deploy=check",
+                    f"Index alias does not redirect to canonical: {relative}")
     for path, host, expected, destination in [
         ("/index.html?deploy=check", "khoda.ai", 301, "https://khoda.ai/?deploy=check"),
         ("/", "www.khoda.ai", 301, "https://khoda.ai/"),

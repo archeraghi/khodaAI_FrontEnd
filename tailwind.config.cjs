@@ -2,7 +2,7 @@
 module.exports = {
   content: {
     relative: true,
-    files: ["./index.html"],
+    files: ["./index.html", "./lifetoy/**/*.html", "./de/**/*.html", "./zh/**/*.html"],
   },
   theme: {
     extend: {

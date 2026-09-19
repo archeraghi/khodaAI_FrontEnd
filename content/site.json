@@ -1,0 +1,425 @@
+{
+  "en": {
+    "locale": "en_US",
+    "nav": [
+      "Company",
+      "LifeToy platform",
+      "Founder",
+      "Contact"
+    ],
+    "languageLabel": "Language",
+    "skip": "Skip to content",
+    "homeTitle": "Khoda AI | The Company Behind LifeToy AI Toys & Plushies",
+    "homeDescription": "Meet Khoda AI, the company behind LifeToy: hardware and conversational AI software for toy brands, plush manufacturers and character creators.",
+    "productTitle": "LifeToy AI Toy Technology & Partnerships | Khoda AI",
+    "productDescription": "How Khoda AI connects toy hardware, voice, cloud, app and character tools through LifeToy. Explore AI plush toy development and partnership planning.",
+    "companyEyebrow": "Khoda AI · Human growth through technology",
+    "companyHeading": "The company behind LifeToy AI toys.",
+    "companyIntro": "We bring conversational AI into physical play. Through LifeToy, Khoda AI connects voice hardware, software and character tools for toy brands, plush manufacturers and creators.",
+    "companySecond": "Our wider purpose is to build tools for learning, creativity and personal growth. LifeToy is how that purpose takes shape in toys that people can speak with.",
+    "primary": "Explore LifeToy technology",
+    "secondary": "Get in touch",
+    "missionTitle": "Technology with a human purpose",
+    "mission": [
+      "Khoda means God in Farsi. Our name reflects the belief that love, knowledge and self-improvement can help human beings grow. In God we trust. With Khoda AI we grow.",
+      "Founded by Dr. Ahmad Reza Cheraghi, Khoda AI LLC brings this philosophy into practical product development. We aim to make artificial intelligence an understandable part of everyday life, with people and their choices at the center."
+    ],
+    "homeProductTitle": "LifeToy: from a toy to a conversational character",
+    "homeProduct": [
+      "An AI toy combines a physical object with software that can respond to speech. An AI plushie brings that interaction into a stuffed animal. LifeToy supplies the hardware and software foundation so teams can shape the experience around their own toy, audience and character.",
+      "Bearie, our bear character, illustrates the idea: a familiar plush form paired with a voice and a personality. The LifeToy platform also supports work on other plush and plastic toy designs; each design needs its own integration and product validation."
+    ],
+    "homeProductLink": "How the LifeToy platform fits together",
+    "companyCardsTitle": "One company, connected disciplines",
+    "companyCards": [
+      [
+        "Physical products",
+        "Microphones, speakers, controls and connectivity need to fit the toy people hold. Hardware integration starts with that physical experience."
+      ],
+      [
+        "Character experiences",
+        "A voice is one part of a character. Personality, stories, language and boundaries shape how a conversation feels."
+      ],
+      [
+        "Connected services",
+        "Firmware, cloud services, the companion app and Studio connect a character's creation with the product's ongoing operation."
+      ]
+    ],
+    "founderTitle": "Founded by Dr. Ahmad Reza Cheraghi",
+    "founder": [
+      "My journey from Iran to Germany to the United States has been guided by the belief that knowledge, creativity and love are keys to human growth.",
+      "I created Khoda AI to build tools that help people develop greater wisdom, empathy and connection. LifeToy brings this ambition into a tangible form, joining technology with the characters and objects that people care about."
+    ],
+    "contactTitle": "Build a connected toy with us",
+    "contact": "Tell us about your character, toy design, intended audience and the experience you want to create. We can start a conversation about how hardware, voice and software fit your project.",
+    "email": "Email Khoda AI",
+    "visit": "Visit LifeToy.ai",
+    "footer": "Khoda AI LLC · Founded by Dr. Ahmad Reza Cheraghi",
+    "logoAlt": "Khoda AI heart logo",
+    "bearAlt": "Bearie, a LifeToy bear character by Khoda AI",
+    "founderAlt": "Dr. Ahmad Reza Cheraghi, founder of Khoda AI",
+    "platformEyebrow": "LifeToy by Khoda AI",
+    "platformHeading": "The technology behind conversational AI toys.",
+    "platformIntro": "A talking toy is an entire connected experience: the object in someone's hands, the character they meet, and the services that keep it working. Khoda AI brings these parts together through LifeToy.",
+    "platformSecond": "This is the company perspective on building AI toys and plushies. For current product examples, platform features and partner access, visit the LifeToy website.",
+    "platformPrimary": "Explore the LifeToy platform",
+    "meaningTitle": "Where AI toys and AI plushies meet",
+    "meaning": [
+      "A conventional talking toy may play a fixed recording. A conversational AI toy uses software to interpret a spoken turn and create a response. Its personality, language and interaction rules are part of the product design.",
+      "An AI plush toy puts that experience into a soft toy or stuffed animal. The plush body creates its own practical requirements: microphone placement, speaker acoustics, accessible controls and a suitable place for the electronics. A plastic figure may use a different physical layout while sharing the same character software."
+    ],
+    "layersTitle": "From physical toy to character platform",
+    "layersIntro": "LifeToy connects these areas so a product team can develop one coherent experience. The exact combination depends on the project.",
+    "layers": [
+      [
+        "Voice hardware",
+        "Microphones, speakers, power, controls and wireless connectivity connect the physical toy with the conversation. Their placement and integration depend on the toy's shape and use."
+      ],
+      [
+        "Firmware and connectivity",
+        "Software on the device manages its operation and connects it to online services. Setup, connection recovery and updates are part of the product experience."
+      ],
+      [
+        "Conversation and character",
+        "A character's voice, personality, stories and interaction boundaries guide the conversation. Language choices and behavior need to be reviewed for the intended audience."
+      ],
+      [
+        "Cloud, app and Studio",
+        "Cloud services support the connected experience, the app helps people set up and access characters, and LifeToy Studio gives teams tools to configure and manage them."
+      ]
+    ],
+    "bearTitle": "Bearie makes the idea tangible",
+    "bear": [
+      "Bearie is a LifeToy bear character that shows how a recognizable plush form can become a conversational companion. It is a starting point for discussing the combination of character design, voice and a physical object.",
+      "Khoda AI is the company behind LifeToy; LifeToy is the platform and product brand. A partner's character can have its own identity. Compatibility, availability and release requirements are assessed for each toy rather than assumed from a demonstration."
+    ],
+    "planningTitle": "What we discuss before a prototype",
+    "planning": [
+      [
+        "Your toy and audience",
+        "Share the character, physical design and intended use. Describe who will interact with it and where the experience will take place."
+      ],
+      [
+        "The first conversation",
+        "Choose one useful play experience, the languages it needs, its tone and clear boundaries. A focused prototype makes the experience easier to evaluate."
+      ],
+      [
+        "The whole product journey",
+        "Plan setup, connectivity, controls, data handling and ongoing operation alongside the voice. These decisions affect the experience after the first conversation."
+      ],
+      [
+        "Validation and launch scope",
+        "Agree what the prototype must demonstrate and what still needs product, safety and market-specific review before release."
+      ]
+    ],
+    "faqTitle": "Questions about Khoda AI and LifeToy",
+    "faqs": [
+      [
+        "Is Khoda AI the same as LifeToy?",
+        "Khoda AI LLC is the company behind LifeToy. LifeToy is its AI toy hardware and software platform and product brand."
+      ],
+      [
+        "Is LifeToy only for plush toys?",
+        "LifeToy works on conversational experiences for plush and plastic toys. The physical integration and release requirements are evaluated for each design."
+      ],
+      [
+        "Does a translated website mean every toy supports that language?",
+        "No. These pages explain the company and platform in English, German and Chinese. Voice languages and behavior depend on the character and project configuration and must be verified for the intended product."
+      ],
+      [
+        "Where can I find current products and availability?",
+        "The LifeToy website is the product and platform destination. Visit it for current examples and partner access, or contact Khoda AI to discuss a specific project."
+      ]
+    ],
+    "guideLinks": [
+      "AI toys guide",
+      "AI plushies guide"
+    ],
+    "visionTitle": "Our vision",
+    "vision": [
+      "We envision AI as a companion in the human journey, supporting emotional balance, intellectual growth and spiritual strength. By bringing human hearts and artificial intelligence together, we aim to help build communities rooted in unity, compassion and progress."
+    ]
+  },
+  "de": {
+    "locale": "de_DE",
+    "nav": [
+      "Unternehmen",
+      "LifeToy-Plattform",
+      "Gründer",
+      "Kontakt"
+    ],
+    "languageLabel": "Sprache",
+    "skip": "Zum Inhalt springen",
+    "homeTitle": "Khoda AI | Unternehmen hinter LifeToy KI-Spielzeug",
+    "homeDescription": "Khoda AI entwickelt mit LifeToy Hardware und KI-Software für Spielzeugmarken: KI-Kuscheltiere, sprechende Figuren und vernetzte Charaktere.",
+    "productTitle": "KI-Spielzeug & KI-Kuscheltiere entwickeln | Khoda AI",
+    "productDescription": "So verbindet Khoda AI über LifeToy Spielzeug-Hardware, Sprach-KI, Cloud, App und Charakterwerkzeuge. Technologie und Partnerschaften für KI-Kuscheltiere.",
+    "companyEyebrow": "Khoda AI · Menschliche Entwicklung durch Technologie",
+    "companyHeading": "Das Unternehmen hinter LifeToy KI-Spielzeug.",
+    "companyIntro": "Wir bringen Sprach-KI in die Spielzeugwelt. Mit LifeToy verbindet Khoda AI Sprachhardware, Software und Charakterwerkzeuge für Spielzeugmarken, Plüschtierhersteller und Kreative.",
+    "companySecond": "Unser Ziel ist es, Werkzeuge für Lernen, Kreativität und persönliche Entwicklung zu schaffen. Mit LifeToy wird diese Idee in Spielzeugen greifbar, mit denen Menschen sprechen können.",
+    "primary": "LifeToy-Technologie entdecken",
+    "secondary": "Kontakt aufnehmen",
+    "missionTitle": "Technologie mit einem menschlichen Ziel",
+    "mission": [
+      "Khoda bedeutet Gott auf Farsi. Unser Name steht für die Überzeugung, dass Liebe, Wissen und persönliche Weiterentwicklung Menschen wachsen lassen. Wir vertrauen auf Gott. Mit Khoda AI wachsen wir.",
+      "Khoda AI LLC wurde von Dr. Ahmad Reza Cheraghi gegründet und setzt diese Philosophie in der Produktentwicklung um. Künstliche Intelligenz soll zu einem verständlichen Teil des Alltags werden, bei dem Menschen und ihre Entscheidungen im Mittelpunkt stehen."
+    ],
+    "homeProductTitle": "LifeToy: vom Spielzeug zum Gesprächspartner",
+    "homeProduct": [
+      "KI-Spielzeug verbindet einen physischen Gegenstand mit Software, die auf Sprache reagieren kann. KI-Kuscheltiere bringen diese Interaktion in ein Stofftier. LifeToy liefert die Grundlage aus Hardware und Software, damit Teams das Erlebnis auf ihr Spielzeug, ihre Zielgruppe und ihren Charakter abstimmen können.",
+      "Unser Bärencharakter Bearie veranschaulicht die Idee: eine vertraute Plüschtierform mit Stimme und Persönlichkeit. Die LifeToy-Plattform unterstützt auch die Entwicklung anderer Plüsch- und Kunststoffspielzeuge. Jedes Design braucht eine eigene Integration und Produktprüfung."
+    ],
+    "homeProductLink": "So arbeiten die Teile der LifeToy-Plattform zusammen",
+    "companyCardsTitle": "Ein Unternehmen, verbundene Fachbereiche",
+    "companyCards": [
+      [
+        "Physische Produkte",
+        "Mikrofone, Lautsprecher, Bedienelemente und Konnektivität müssen zum Spielzeug passen. Die Hardware-Integration beginnt mit dem Gegenstand, den Menschen in den Händen halten."
+      ],
+      [
+        "Charaktererlebnisse",
+        "Eine Stimme ist nur ein Teil eines Charakters. Persönlichkeit, Geschichten, Sprache und Grenzen bestimmen, wie sich ein Gespräch anfühlt."
+      ],
+      [
+        "Vernetzte Dienste",
+        "Firmware, Cloud-Dienste, Begleit-App und Studio verbinden die Gestaltung eines Charakters mit dem laufenden Betrieb des Produkts."
+      ]
+    ],
+    "founderTitle": "Gegründet von Dr. Ahmad Reza Cheraghi",
+    "founder": [
+      "Mein Weg vom Iran über Deutschland in die Vereinigten Staaten wurde von der Überzeugung geprägt, dass Wissen, Kreativität und Liebe entscheidend für die menschliche Entwicklung sind.",
+      "Ich habe Khoda AI gegründet, um Werkzeuge zu schaffen, die Weisheit, Empathie und Verbundenheit unterstützen. LifeToy macht dieses Ziel greifbar und verbindet Technologie mit Charakteren und Gegenständen, die Menschen am Herzen liegen."
+    ],
+    "contactTitle": "Gemeinsam ein vernetztes Spielzeug entwickeln",
+    "contact": "Erzählen Sie uns von Ihrem Charakter, dem Spielzeugdesign, der Zielgruppe und dem gewünschten Erlebnis. Gemeinsam können wir besprechen, wie Hardware, Sprache und Software zu Ihrem Projekt passen.",
+    "email": "E-Mail an Khoda AI",
+    "visit": "LifeToy.ai besuchen",
+    "footer": "Khoda AI LLC · Gegründet von Dr. Ahmad Reza Cheraghi",
+    "logoAlt": "Das Herzlogo von Khoda AI",
+    "bearAlt": "Bearie, ein LifeToy-Bärencharakter von Khoda AI",
+    "founderAlt": "Dr. Ahmad Reza Cheraghi, Gründer von Khoda AI",
+    "platformEyebrow": "LifeToy von Khoda AI",
+    "platformHeading": "Die Technologie hinter KI-Spielzeug und KI-Kuscheltieren.",
+    "platformIntro": "Ein sprechendes Spielzeug ist ein vernetztes Gesamterlebnis: der Gegenstand in der Hand, der Charakter im Gespräch und die Dienste im Hintergrund. Khoda AI verbindet diese Bestandteile mit LifeToy.",
+    "platformSecond": "Hier erklären wir aus Unternehmenssicht, wie KI-Spielzeug und KI-Plüschtiere entstehen. Aktuelle Produktbeispiele, Plattformfunktionen und den Partnerzugang finden Sie auf der LifeToy-Website.",
+    "platformPrimary": "Die LifeToy-Plattform entdecken",
+    "meaningTitle": "Was KI-Spielzeug und KI-Kuscheltiere verbindet",
+    "meaning": [
+      "Ein herkömmliches sprechendes Spielzeug kann eine feste Aufnahme abspielen. Ein Spielzeug mit Sprach-KI nutzt Software, um einen gesprochenen Beitrag zu verstehen und eine Antwort zu erzeugen. Persönlichkeit, Sprache und Interaktionsregeln gehören zum Produktdesign.",
+      "Ein KI-Kuscheltier bringt dieses Erlebnis in ein weiches Stofftier. Der Plüschkörper stellt eigene praktische Anforderungen: Mikrofonposition, Lautsprecherakustik, erreichbare Bedienelemente und ein geeigneter Platz für die Elektronik. Eine Kunststofffigur kann anders aufgebaut sein und trotzdem dieselbe Charaktersoftware verwenden."
+    ],
+    "layersTitle": "Vom Spielzeug zur Charakterplattform",
+    "layersIntro": "LifeToy verbindet diese Bereiche zu einem zusammenhängenden Erlebnis. Welche Bestandteile benötigt werden, hängt vom jeweiligen Projekt ab.",
+    "layers": [
+      [
+        "Sprachhardware",
+        "Mikrofone, Lautsprecher, Stromversorgung, Bedienelemente und drahtlose Verbindung verknüpfen das physische Spielzeug mit dem Gespräch. Ihre Anordnung hängt von Form und Nutzung ab."
+      ],
+      [
+        "Firmware und Verbindung",
+        "Die Gerätesoftware steuert den Betrieb und stellt die Verbindung zu Online-Diensten her. Einrichtung, Wiederverbindung und Updates gehören zum Produkterlebnis."
+      ],
+      [
+        "Gespräch und Charakter",
+        "Stimme, Persönlichkeit, Geschichten und Interaktionsgrenzen prägen das Gespräch. Sprachen und Verhalten müssen für die vorgesehene Zielgruppe geprüft werden."
+      ],
+      [
+        "Cloud, App und Studio",
+        "Cloud-Dienste unterstützen das vernetzte Erlebnis. Die App hilft bei Einrichtung und Charakterzugang, während Teams Charaktere mit LifeToy Studio konfigurieren und verwalten."
+      ]
+    ],
+    "bearTitle": "Bearie macht die Idee greifbar",
+    "bear": [
+      "Bearie ist ein LifeToy-Bärencharakter. Er zeigt, wie eine vertraute Plüschtierform zu einem Gesprächspartner werden kann. An ihm lässt sich das Zusammenspiel von Charaktergestaltung, Stimme und physischem Gegenstand besprechen.",
+      "Khoda AI ist das Unternehmen hinter LifeToy; LifeToy ist die Plattform und Produktmarke. Ein Partnercharakter kann eine eigene Identität haben. Kompatibilität, Verfügbarkeit und Anforderungen an die Markteinführung werden für jedes Spielzeug einzeln geprüft."
+    ],
+    "planningTitle": "Was wir vor dem Prototyp besprechen",
+    "planning": [
+      [
+        "Spielzeug und Zielgruppe",
+        "Stellen Sie Charakter, physisches Design und geplante Nutzung vor. Beschreiben Sie, wer mit dem Spielzeug interagiert und in welcher Umgebung."
+      ],
+      [
+        "Das erste Gespräch",
+        "Wählen Sie ein konkretes Spielerlebnis, die benötigten Sprachen, den Ton und klare Grenzen. Ein fokussierter Prototyp lässt sich besser bewerten."
+      ],
+      [
+        "Der gesamte Produktablauf",
+        "Planen Sie Einrichtung, Verbindung, Steuerung, Datenverarbeitung und laufenden Betrieb zusammen mit der Sprachfunktion. Diese Entscheidungen wirken über das erste Gespräch hinaus."
+      ],
+      [
+        "Prüfung und Markteinführung",
+        "Legen Sie fest, was der Prototyp zeigen muss und welche Produkt-, Sicherheits- und marktspezifischen Prüfungen vor einer Veröffentlichung noch nötig sind."
+      ]
+    ],
+    "faqTitle": "Fragen zu Khoda AI und LifeToy",
+    "faqs": [
+      [
+        "Sind Khoda AI und LifeToy dasselbe?",
+        "Khoda AI LLC ist das Unternehmen hinter LifeToy. LifeToy ist seine Plattform für KI-Spielzeug-Hardware und -Software sowie seine Produktmarke."
+      ],
+      [
+        "Ist LifeToy nur für Kuscheltiere gedacht?",
+        "LifeToy entwickelt Gesprächserlebnisse für Plüsch- und Kunststoffspielzeuge. Die physische Integration und die Anforderungen an eine Veröffentlichung werden für jedes Design geprüft."
+      ],
+      [
+        "Bedeutet eine übersetzte Website, dass jedes Spielzeug diese Sprache spricht?",
+        "Nein. Diese Seiten erklären Unternehmen und Plattform auf Englisch, Deutsch und Chinesisch. Sprachunterstützung und Verhalten hängen von der Charakter- und Projektkonfiguration ab und müssen für das geplante Produkt geprüft werden."
+      ],
+      [
+        "Wo finde ich aktuelle Produkte und Informationen zur Verfügbarkeit?",
+        "Die LifeToy-Website ist die Anlaufstelle für Produkte und Plattform. Dort finden Sie aktuelle Beispiele und den Partnerzugang. Für ein konkretes Projekt können Sie Khoda AI direkt kontaktieren."
+      ]
+    ],
+    "guideLinks": [
+      "Ratgeber zu KI-Spielzeug",
+      "Ratgeber zu KI-Kuscheltieren"
+    ],
+    "visionTitle": "Unsere Vision",
+    "vision": [
+      "Wir sehen KI als Begleiter auf dem menschlichen Lebensweg, der emotionale Ausgeglichenheit, geistige Entwicklung und spirituelle Stärke unterstützen kann. Indem wir menschliche Herzlichkeit und künstliche Intelligenz verbinden, möchten wir zu Gemeinschaften beitragen, die von Zusammenhalt, Mitgefühl und Fortschritt geprägt sind."
+    ]
+  },
+  "zh": {
+    "locale": "zh_CN",
+    "nav": [
+      "公司",
+      "LifeToy 平台",
+      "创始人",
+      "联系我们"
+    ],
+    "languageLabel": "语言",
+    "skip": "跳转到正文",
+    "homeTitle": "Khoda AI | LifeToy AI 玩具与智能毛绒玩具背后的公司",
+    "homeDescription": "了解 Khoda AI 与 LifeToy：为玩具品牌、毛绒玩具制造商及角色创作者连接语音硬件、对话式人工智能软件和角色管理工具。",
+    "productTitle": "AI 玩具与智能毛绒玩具技术及合作 | Khoda AI",
+    "productDescription": "了解 Khoda AI 如何通过 LifeToy 连接玩具硬件、语音 AI、云服务、应用和角色工具，以及智能毛绒玩具项目的开发与合作流程。",
+    "companyEyebrow": "Khoda AI · 以科技支持人的成长",
+    "companyHeading": "LifeToy AI 玩具背后的公司。",
+    "companyIntro": "我们将对话式人工智能带入实体玩具。Khoda AI 通过 LifeToy，为玩具品牌、毛绒玩具制造商和创作者连接语音硬件、软件与角色工具。",
+    "companySecond": "我们的目标是开发支持学习、创造力和个人成长的工具。LifeToy 将这一理念变成可触摸的体验，让人们能够与玩具角色对话。",
+    "primary": "了解 LifeToy 技术",
+    "secondary": "联系我们",
+    "missionTitle": "以人为本的科技理念",
+    "mission": [
+      "Khoda 在波斯语中意为上帝。这个名字表达了我们的信念：爱、知识和自我完善可以帮助人成长。我们心怀信仰，与 Khoda AI 一同成长。",
+      "Khoda AI LLC 由 Dr. Ahmad Reza Cheraghi 创立，将这一理念融入实际产品开发。我们希望人工智能成为日常生活中易于理解的一部分，让人及其选择处于核心位置。"
+    ],
+    "homeProductTitle": "LifeToy：从玩具到可对话的角色",
+    "homeProduct": [
+      "AI 玩具将实体物品与能够回应语音的软件结合起来。智能毛绒玩具则把这种互动带入柔软的玩偶。LifeToy 提供硬件和软件基础，让团队根据自己的玩具、目标用户和角色设计体验。",
+      "我们的熊角色 Bearie 展示了这个想法：熟悉的毛绒外形，加上声音和个性。LifeToy 平台也支持其他毛绒和塑料玩具设计的开发；每种设计都需要单独进行集成和产品验证。"
+    ],
+    "homeProductLink": "了解 LifeToy 平台各部分如何协作",
+    "companyCardsTitle": "一家公司的多领域协作",
+    "companyCards": [
+      [
+        "实体产品",
+        "麦克风、扬声器、控制部件和连接能力需要适配人们手中的玩具。硬件集成从真实的使用体验开始。"
+      ],
+      [
+        "角色体验",
+        "声音只是角色的一部分。个性、故事、语言和互动边界共同决定对话的感受。"
+      ],
+      [
+        "联网服务",
+        "固件、云服务、配套应用和 Studio 将角色创作与产品的持续运营连接起来。"
+      ]
+    ],
+    "founderTitle": "创始人 Dr. Ahmad Reza Cheraghi",
+    "founder": [
+      "从伊朗到德国，再到美国，我始终相信知识、创造力和爱是人成长的重要力量。",
+      "我创立 Khoda AI，是为了开发帮助人们增进智慧、共情和联系的工具。LifeToy 将这个目标变得具体，把科技与人们珍视的角色和物品结合起来。"
+    ],
+    "contactTitle": "与我们一起开发联网玩具",
+    "contact": "向我们介绍您的角色、玩具设计、目标用户和希望创造的体验。我们可以从硬件、语音和软件如何适配您的项目开始讨论。",
+    "email": "发送邮件给 Khoda AI",
+    "visit": "访问 LifeToy.ai",
+    "footer": "Khoda AI LLC · 由 Dr. Ahmad Reza Cheraghi 创立",
+    "logoAlt": "Khoda AI 爱心标志",
+    "bearAlt": "Bearie，Khoda AI 旗下 LifeToy 的熊角色",
+    "founderAlt": "Khoda AI 创始人 Dr. Ahmad Reza Cheraghi",
+    "platformEyebrow": "Khoda AI 旗下的 LifeToy",
+    "platformHeading": "对话式 AI 玩具背后的技术。",
+    "platformIntro": "会说话的玩具是一套完整的联网体验：手中的实体物品、交流中的角色，以及维持体验的服务。Khoda AI 通过 LifeToy 将这些部分连接起来。",
+    "platformSecond": "本页从公司的角度介绍 AI 玩具和智能毛绒玩具的开发。最新产品示例、平台功能和合作伙伴入口请访问 LifeToy 网站。",
+    "platformPrimary": "探索 LifeToy 平台",
+    "meaningTitle": "AI 玩具与智能毛绒玩具的共同基础",
+    "meaning": [
+      "传统的发声玩具可能只播放固定录音。对话式 AI 玩具使用软件理解一段语音并生成回应。角色的个性、语言和互动规则都是产品设计的一部分。",
+      "智能毛绒玩具将这一体验放入柔软的玩偶。毛绒外壳带来具体的设计要求，例如麦克风位置、扬声器声学效果、方便操作的控制部件，以及电子组件的合适空间。塑料玩具可以采用不同的内部布局，同时使用相同的角色软件。"
+    ],
+    "layersTitle": "从实体玩具到角色平台",
+    "layersIntro": "LifeToy 连接以下领域，帮助产品团队形成完整的体验。具体组合取决于项目需求。",
+    "layers": [
+      [
+        "语音硬件",
+        "麦克风、扬声器、电源、控制部件和无线连接把实体玩具与对话连接起来。它们的位置与集成方式取决于玩具的外形和用途。"
+      ],
+      [
+        "固件与连接",
+        "设备上的软件管理运行，并连接在线服务。设置、断线恢复和更新都是产品体验的一部分。"
+      ],
+      [
+        "对话与角色",
+        "角色的声音、个性、故事和互动边界引导对话。语言选择和行为需要针对目标用户进行评估。"
+      ],
+      [
+        "云服务、应用与 Studio",
+        "云服务支持联网体验，配套应用帮助用户设置和访问角色，LifeToy Studio 则为团队提供角色配置和管理工具。"
+      ]
+    ],
+    "bearTitle": "Bearie 让这个想法变得具体",
+    "bear": [
+      "Bearie 是 LifeToy 的熊角色，展示了熟悉的毛绒外形如何成为可对话的伙伴。它为讨论角色设计、声音和实体物品的结合提供了一个具体起点。",
+      "Khoda AI 是 LifeToy 背后的公司；LifeToy 是平台和产品品牌。合作伙伴的角色可以保留自己的身份。兼容性、可用性和发布要求都需要逐个玩具评估，不能仅凭演示推定。"
+    ],
+    "planningTitle": "制作原型之前，我们会讨论什么",
+    "planning": [
+      [
+        "玩具与目标用户",
+        "介绍角色、实体设计和计划用途，说明谁会与玩具互动，以及体验将发生在什么环境中。"
+      ],
+      [
+        "第一次对话",
+        "选择一个具体的游戏体验，确定需要的语言、语气和清晰的边界。聚焦的原型更便于评估。"
+      ],
+      [
+        "完整的产品使用过程",
+        "将设置、连接、控制、数据处理和持续运营与语音功能一起规划。这些决定会影响第一次对话之后的体验。"
+      ],
+      [
+        "验证与发布范围",
+        "约定原型需要证明什么，以及正式发布前还需要完成哪些产品、安全和目标市场相关的评估。"
+      ]
+    ],
+    "faqTitle": "关于 Khoda AI 与 LifeToy 的常见问题",
+    "faqs": [
+      [
+        "Khoda AI 和 LifeToy 是同一个名称吗？",
+        "Khoda AI LLC 是 LifeToy 背后的公司。LifeToy 是其 AI 玩具硬件与软件平台，也是产品品牌。"
+      ],
+      [
+        "LifeToy 只适用于毛绒玩具吗？",
+        "LifeToy 面向毛绒和塑料玩具开发对话体验。每种设计的实体集成方式和发布要求都需要单独评估。"
+      ],
+      [
+        "网站提供某种语言，是否意味着所有玩具都支持该语言？",
+        "不是。这些页面以英语、德语和中文介绍公司与平台。实际语音语言和行为取决于角色及项目配置，需要针对计划中的产品验证。"
+      ],
+      [
+        "在哪里查看最新产品与可用性信息？",
+        "LifeToy 网站是产品和平台的信息入口。您可以在那里查看最新示例和合作伙伴入口，或直接联系 Khoda AI 讨论具体项目。"
+      ]
+    ],
+    "guideLinks": [
+      "AI 玩具指南",
+      "智能毛绒玩具指南"
+    ],
+    "visionTitle": "我们的愿景",
+    "vision": [
+      "我们希望人工智能成为人生成长旅程中的伙伴，支持情绪平衡、知识发展和精神力量。通过将人心与人工智能结合，我们希望助力建立以团结、关爱和进步为基础的社区。"
+    ]
+  }
+}
