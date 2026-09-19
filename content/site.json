@@ -157,7 +157,8 @@
       "Khoda AI is developing the LifeToy Marketplace so business partners can present their characters and sell plush toys that use LifeToy technology. Our goal is to connect the character experience with a clear product description and a choice of offerings.",
       "The planned visitor journey is to talk with a character, ask questions about the product and choose an offering with or without LifeToy hardware. The planned range includes digital character experiences and physical plush toys; each listing will explain what is included and which features it supports. Marketplace purchasing is planned and is not yet available as a complete live service."
     ],
-    "marketplaceLink": "Explore LifeToy and its partner plans"
+    "marketplaceLink": "Explore LifeToy and its partner plans",
+    "appLink": "Explore the LifeToy mobile app"
   },
   "de": {
     "locale": "de_DE",
@@ -317,7 +318,8 @@
       "Khoda AI entwickelt den LifeToy Marketplace, damit Geschäftspartner ihre Charaktere präsentieren und Plüschtiere mit LifeToy-Technologie verkaufen können. Unser Ziel ist es, das Charaktererlebnis mit einer klaren Produktbeschreibung und passenden Angeboten zu verbinden.",
       "Besucher sollen mit einem Charakter sprechen, Fragen zum Produkt stellen und ein Angebot mit oder ohne LifeToy-Hardware kaufen können. Geplant sind digitale Charaktererlebnisse und physische Plüschtiere; jedes Angebot wird seinen Lieferumfang und die unterstützten Funktionen beschreiben. Die Kauffunktion des Marktplatzes ist geplant und noch nicht als vollständiger öffentlicher Dienst verfügbar."
     ],
-    "marketplaceLink": "LifeToy und die Pläne für Partner entdecken"
+    "marketplaceLink": "LifeToy und die Pläne für Partner entdecken",
+    "appLink": "Die LifeToy-App entdecken"
   },
   "zh": {
     "locale": "zh_CN",
@@ -477,6 +479,7 @@
       "Khoda AI 正在开发 LifeToy Marketplace，让企业合作伙伴展示自己的角色，并销售采用 LifeToy 技术的毛绒玩具。我们希望将角色体验与清晰的产品说明及不同产品选项连接起来。",
       "计划中的访客流程是先与角色交谈、询问产品问题，再选择包含或不包含 LifeToy 硬件的产品。计划中的产品类型包括数字角色体验和实体毛绒玩具；每个商品页面将说明所含内容和支持的功能。商城购买功能仍在规划中，尚未作为完整的公开服务提供。"
     ],
-    "marketplaceLink": "了解 LifeToy 及合作伙伴计划"
+    "marketplaceLink": "了解 LifeToy 及合作伙伴计划",
+    "appLink": "了解 LifeToy 移动应用"
   }
 }

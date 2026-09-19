@@ -77,8 +77,9 @@ def generate(lang, platform):
         content += section(t['meaningTitle'], paragraphs(t['meaning']))
         content += section(t['layersTitle'], paragraphs([t['layersIntro']]) + cards(t['layers']), wide=True)
         content += image_block(t['bearTitle'], paragraphs(t['bear']), t['bearAlt'], 'bearie')
-        content += section(t['appTitle'], paragraphs(t['app']) + store_status(t), id='app')
-        marketplace_link = f'<a href="{lifetoy}" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["marketplaceLink"])}</a>'
+        app_detail_link = f'<a href="{lifetoy}#app" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["appLink"])}</a>'
+        content += section(t['appTitle'], paragraphs(t['app']) + store_status(t) + app_detail_link, id='app')
+        marketplace_link = f'<a href="{lifetoy}#marketplace" class="mt-6 inline-block font-semibold underline text-kh-bright">{e(t["marketplaceLink"])}</a>'
         content += section(t['marketplaceTitle'], paragraphs(t['marketplace']) + marketplace_link, id='marketplace', pale=True)
         content += section(t['planningTitle'], cards(t['planning']), wide=True)
         faqs = ''.join(f'<details class="border-b border-black/10 py-5"><summary class="cursor-pointer text-lg font-semibold">{e(question)}</summary><p class="mt-3 text-kh-mute leading-relaxed">{e(answer)}</p></details>' for question, answer in t['faqs'])
