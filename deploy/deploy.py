@@ -26,6 +26,7 @@ import tempfile
 SITE = Path("/var/www/khoda-ai")
 CONFIG_LINK = Path("/etc/nginx/sites-enabled/khoda-ai")
 PUBLIC_FILES = (
+    "images/lifetoy-platform-480.webp", "images/lifetoy-platform-800.webp", "images/lifetoy-platform-1200.webp",
     "index.html", "lifetoy/index.html", "de/index.html", "de/lifetoy/index.html",
     "zh/index.html", "zh/lifetoy/index.html", "robots.txt", "sitemap.xml", "favicon.png",
     "google0cbd976d77731379.html", "assets/site.css",

@@ -68,8 +68,8 @@ def generate(lang, platform):
     second = t['platformSecond' if platform else 'companySecond']
     primary_href = lifetoy if platform else product
     primary = t['platformPrimary' if platform else 'primary']
-    hero_image = 'bearie' if platform else 'logo'
-    hero_alt = t['bearAlt' if platform else 'logoAlt']
+    hero_image = 'lifetoy-platform-800' if platform else 'logo'
+    hero_alt = t['illustrationAlt' if platform else 'logoAlt']
     content = f'''<section id="top" class="bg-kh-blush/30 py-16 sm:py-20"><div class="mx-auto max-w-6xl px-5 sm:px-8 grid lg:grid-cols-2 gap-8 items-center"><div><p class="text-sm font-semibold text-kh-bright">{e(eyebrow)}</p><h1 class="mt-4 text-4xl sm:text-5xl font-extrabold leading-tight">{e(heading)}</h1>{paragraphs([intro, second])}<div class="mt-8 flex flex-wrap gap-3"><a href="{primary_href}" class="rounded-xl bg-kh-bright px-5 py-3 text-white font-semibold hover:bg-kh-base">{e(primary)}</a><a href="#contact" class="rounded-xl border border-kh-mute px-5 py-3 font-semibold hover:bg-white">{e(t['secondary'])}</a></div></div><img src="/images/{hero_image}.webp" alt="{e(hero_alt)}" width="1024" height="1024" fetchpriority="high" class="mx-auto w-full max-w-xs sm:max-w-md h-auto rounded-3xl"/></div></section>'''
     if platform:
         breadcrumb_label = {'en': 'Breadcrumb', 'de': 'Brotkrumennavigation', 'zh': '面包屑导航'}[lang]
@@ -94,6 +94,8 @@ def generate(lang, platform):
         content += section(t['visionTitle'], paragraphs(t['vision']), id='vision')
         content += section(t['companyCardsTitle'], cards(t['companyCards'], 'md:grid-cols-3'), id='approach', wide=True)
         content += f'<section id="founder" class="py-16 sm:py-20"><div class="mx-auto max-w-6xl px-5 sm:px-8 grid md:grid-cols-2 gap-10 items-center"><img src="/images/me.webp" width="1320" height="1287" loading="lazy" decoding="async" alt="{e(t["founderAlt"])}" class="w-full h-auto rounded-3xl"/><div><h2 class="text-3xl font-bold leading-tight">{e(t["founderTitle"])}</h2>{paragraphs(t["founder"])}</div></div></section>'
+    illustration = f'<figure class="mt-8"><img src="/images/lifetoy-platform-1200.webp" srcset="/images/lifetoy-platform-480.webp 480w, /images/lifetoy-platform-800.webp 800w, /images/lifetoy-platform-1200.webp 1200w" sizes="(min-width:1152px) 1088px, calc(100vw - 40px)" width="1200" height="675" loading="lazy" decoding="async" alt="{e(t["illustrationAlt"])}" class="w-full h-auto rounded-3xl"/><figcaption class="mt-3 text-sm text-kh-mute">{e(t["illustrationDisclosure"])}</figcaption></figure>'
+    content += section(t['layersTitle'], illustration, id='technology', wide=True)
     content += section(t['contactTitle'], paragraphs([t['contact']]) + f'<div class="mt-8 flex flex-wrap gap-4"><a href="mailto:info@khoda.ai" class="rounded-xl bg-kh-bright px-5 py-3 font-semibold text-white hover:bg-kh-base">{e(t["email"])}</a><a href="{lifetoy}" class="rounded-xl border border-kh-mute px-5 py-3 font-semibold hover:bg-white">{e(t["visit"])}</a></div>', id='contact', pale=True)
     return f'''<!DOCTYPE html>
 <html lang="{lang}">

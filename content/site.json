@@ -21,8 +21,8 @@
     "secondary": "Get in touch",
     "missionTitle": "Technology with a human purpose",
     "mission": [
-      "Khoda means God in Farsi. Our name reflects the belief that love, knowledge and self-improvement can help human beings grow. In God we trust. With Khoda AI we grow.",
-      "Founded by Dr. Ahmad Reza Cheraghi, Khoda AI LLC brings this philosophy into practical product development. We aim to make artificial intelligence an understandable part of everyday life, with people and their choices at the center."
+      "Build high-quality AI infrastructure that helps people learn, create and connect—and gives businesses the tools to bring meaningful AI experiences into everyday life.",
+      "We believe AI can contribute something good to human life. It should encourage curiosity, support creativity and make room for meaningful connection. We build around that belief through careful engineering, clear responsibility and a commitment to keep improving."
     ],
     "homeProductTitle": "LifeToy: from a toy to a conversational character",
     "homeProduct": [
@@ -60,7 +60,7 @@
     "founderAlt": "Dr. Ahmad Reza Cheraghi, founder of Khoda AI",
     "platformEyebrow": "LifeToy by Khoda AI",
     "platformHeading": "The technology behind conversational AI toys.",
-    "platformIntro": "A talking toy is an entire connected experience: the object in someone's hands, the character they meet, and the services that keep it working. Khoda AI brings these parts together through LifeToy.",
+    "platformIntro": "We develop the system connecting a toy to its character: dedicated voice hardware, embedded firmware, realtime AI integration, backend services and tools for creating and operating the experience.",
     "platformSecond": "This is the company perspective on building AI toys and plushies. For current product examples, platform features and partner access, visit the LifeToy website.",
     "platformPrimary": "Explore the LifeToy platform",
     "meaningTitle": "Where AI toys and AI plushies meet",
@@ -69,23 +69,31 @@
       "An AI plush toy puts that experience into a soft toy or stuffed animal. The plush body creates its own practical requirements: microphone placement, speaker acoustics, accessible controls and a suitable place for the electronics. A plastic figure may use a different physical layout while sharing the same character software."
     ],
     "layersTitle": "From physical toy to character platform",
-    "layersIntro": "LifeToy connects these areas so a product team can develop one coherent experience. The exact combination depends on the project.",
+    "layersIntro": "A convincing character needs coordinated listening, turn-taking, interruption handling and playback. We engineer those parts together across the device, firmware, AI service and application. Provider integrations and spoken-language quality are validated for each product release.",
     "layers": [
       [
-        "Voice hardware",
-        "Microphones, speakers, power, controls and wireless connectivity connect the physical toy with the conversation. Their placement and integration depend on the toy's shape and use."
+        "Dedicated voice hardware",
+        "Microphones, speakers, controls and connectivity designed around the physical toy. Fit, power and acoustics are assessed for each integration."
       ],
       [
-        "Firmware and connectivity",
-        "Software on the device manages its operation and connects it to online services. Setup, connection recovery and updates are part of the product experience."
+        "Embedded firmware",
+        "Device software coordinates audio, connectivity, conversation state and updates on supported hardware."
       ],
       [
-        "Conversation and character",
-        "A character's voice, personality, stories and interaction boundaries guide the conversation. Language choices and behavior need to be reviewed for the intended audience."
+        "Realtime voice",
+        "Speech-to-speech provider integration brings listening and responses together with the character’s voice and conversation behavior."
       ],
       [
-        "Cloud, app and Studio",
-        "Cloud services support the connected experience, the app helps people set up and access characters, and LifeToy Studio gives teams tools to configure and manage them."
+        "Backend & orchestration",
+        "Session authorization, character configuration, usage accounting and device ownership connect the product to its services."
+      ],
+      [
+        "LifeToy Studio",
+        "Start from an image, shape a character, select its voice and personality, and manage its availability and hardware assignment."
+      ],
+      [
+        "Companion experience",
+        "Discover characters, pair compatible hardware and revisit conversation history. Store releases and physical-product availability are confirmed separately."
       ]
     ],
     "bearTitle": "Bearie makes the idea tangible",
@@ -137,7 +145,7 @@
     ],
     "visionTitle": "Our vision",
     "vision": [
-      "We envision AI as a companion in the human journey, supporting emotional balance, intellectual growth and spiritual strength. By bringing human hearts and artificial intelligence together, we aim to help build communities rooted in unity, compassion and progress."
+      "A society where technology strengthens human curiosity, kindness and the desire to keep growing."
     ],
     "homeAppTitle": "A mobile app and a marketplace for character experiences",
     "homeApp": [
@@ -158,7 +166,9 @@
       "The planned visitor journey is to talk with a character, ask questions about the product and choose an offering with or without LifeToy hardware. The planned range includes digital character experiences and physical plush toys; each listing will explain what is included and which features it supports. Marketplace purchasing is planned and is not yet available as a complete live service."
     ],
     "marketplaceLink": "Explore LifeToy and its partner plans",
-    "appLink": "Explore the LifeToy mobile app"
+    "appLink": "Explore the LifeToy mobile app",
+    "illustrationAlt": "Conceptual LifeToy platform with Bearie, voice hardware, firmware, cloud services, Studio and companion app.",
+    "illustrationDisclosure": "Product illustrations. Hardware integration and interfaces vary by product."
   },
   "de": {
     "locale": "de_DE",
@@ -182,8 +192,8 @@
     "secondary": "Kontakt aufnehmen",
     "missionTitle": "Technologie mit einem menschlichen Ziel",
     "mission": [
-      "Khoda bedeutet Gott auf Farsi. Unser Name steht für die Überzeugung, dass Liebe, Wissen und persönliche Weiterentwicklung Menschen wachsen lassen. Wir vertrauen auf Gott. Mit Khoda AI wachsen wir.",
-      "Khoda AI LLC wurde von Dr. Ahmad Reza Cheraghi gegründet und setzt diese Philosophie in der Produktentwicklung um. Künstliche Intelligenz soll zu einem verständlichen Teil des Alltags werden, bei dem Menschen und ihre Entscheidungen im Mittelpunkt stehen."
+      "Hochwertige KI-Infrastruktur entwickeln, die Menschen beim Lernen, Gestalten und Verbinden unterstützt und Unternehmen sinnvolle KI-Erlebnisse im Alltag ermöglicht.",
+      "Wir glauben, dass KI einen positiven Beitrag zum menschlichen Leben leisten kann. Sie soll Neugier wecken, Kreativität unterstützen und Raum für bedeutungsvolle Begegnungen schaffen. Dafür stehen sorgfältige Entwicklung, klare Verantwortung und kontinuierliche Verbesserung."
     ],
     "homeProductTitle": "LifeToy: vom Spielzeug zum Gesprächspartner",
     "homeProduct": [
@@ -221,7 +231,7 @@
     "founderAlt": "Dr. Ahmad Reza Cheraghi, Gründer von Khoda AI",
     "platformEyebrow": "LifeToy von Khoda AI",
     "platformHeading": "Die Technologie hinter KI-Spielzeug und KI-Kuscheltieren.",
-    "platformIntro": "Ein sprechendes Spielzeug ist ein vernetztes Gesamterlebnis: der Gegenstand in der Hand, der Charakter im Gespräch und die Dienste im Hintergrund. Khoda AI verbindet diese Bestandteile mit LifeToy.",
+    "platformIntro": "Wir entwickeln das System zwischen Spielzeug und Charakter: eigene Sprachhardware, Firmware, Echtzeit-KI-Integration, Backend-Dienste und Werkzeuge zum Erstellen und Betreiben des Erlebnisses.",
     "platformSecond": "Hier erklären wir aus Unternehmenssicht, wie KI-Spielzeug und KI-Plüschtiere entstehen. Aktuelle Produktbeispiele, Plattformfunktionen und den Partnerzugang finden Sie auf der LifeToy-Website.",
     "platformPrimary": "Die LifeToy-Plattform entdecken",
     "meaningTitle": "Was KI-Spielzeug und KI-Kuscheltiere verbindet",
@@ -230,23 +240,31 @@
       "Ein KI-Kuscheltier bringt dieses Erlebnis in ein weiches Stofftier. Der Plüschkörper stellt eigene praktische Anforderungen: Mikrofonposition, Lautsprecherakustik, erreichbare Bedienelemente und ein geeigneter Platz für die Elektronik. Eine Kunststofffigur kann anders aufgebaut sein und trotzdem dieselbe Charaktersoftware verwenden."
     ],
     "layersTitle": "Vom Spielzeug zur Charakterplattform",
-    "layersIntro": "LifeToy verbindet diese Bereiche zu einem zusammenhängenden Erlebnis. Welche Bestandteile benötigt werden, hängt vom jeweiligen Projekt ab.",
+    "layersIntro": "Ein überzeugender Charakter braucht abgestimmtes Zuhören, Sprecherwechsel, Unterbrechungen und Wiedergabe. Wir entwickeln diese Funktionen gemeinsam über Gerät, Firmware, KI-Dienst und Anwendung hinweg. Anbieterintegration und Sprachqualität werden für die jeweilige Produktversion geprüft.",
     "layers": [
       [
-        "Sprachhardware",
-        "Mikrofone, Lautsprecher, Stromversorgung, Bedienelemente und drahtlose Verbindung verknüpfen das physische Spielzeug mit dem Gespräch. Ihre Anordnung hängt von Form und Nutzung ab."
+        "Eigene Sprachhardware",
+        "Mikrofone, Lautsprecher, Bedienelemente und Konnektivität rund um das Spielzeug. Bauform, Stromversorgung und Akustik werden je Integration geprüft."
       ],
       [
-        "Firmware und Verbindung",
-        "Die Gerätesoftware steuert den Betrieb und stellt die Verbindung zu Online-Diensten her. Einrichtung, Wiederverbindung und Updates gehören zum Produkterlebnis."
+        "Firmware",
+        "Gerätesoftware koordiniert Audio, Verbindung, Gesprächszustand und Updates auf unterstützter Hardware."
       ],
       [
-        "Gespräch und Charakter",
-        "Stimme, Persönlichkeit, Geschichten und Interaktionsgrenzen prägen das Gespräch. Sprachen und Verhalten müssen für die vorgesehene Zielgruppe geprüft werden."
+        "Echtzeit-Stimme",
+        "Die Integration von Sprach-KI verbindet Zuhören und Antworten mit der Stimme und dem Gesprächsverhalten des Charakters."
       ],
       [
-        "Cloud, App und Studio",
-        "Cloud-Dienste unterstützen das vernetzte Erlebnis. Die App hilft bei Einrichtung und Charakterzugang, während Teams Charaktere mit LifeToy Studio konfigurieren und verwalten."
+        "Backend und Orchestrierung",
+        "Sitzungsautorisierung, Charakterkonfiguration, Nutzungsabrechnung und Gerätezuordnung verbinden Produkt und Dienste."
+      ],
+      [
+        "LifeToy Studio",
+        "Mit einem Bild beginnen, einen Charakter gestalten, Stimme und Persönlichkeit wählen sowie Verfügbarkeit und Hardwarezuordnung verwalten."
+      ],
+      [
+        "Begleit-App",
+        "Charaktere entdecken, kompatible Hardware koppeln und Gesprächsverläufe wieder ansehen. Store-Veröffentlichung und Produktverfügbarkeit werden getrennt bestätigt."
       ]
     ],
     "bearTitle": "Bearie macht die Idee greifbar",
@@ -298,7 +316,7 @@
     ],
     "visionTitle": "Unsere Vision",
     "vision": [
-      "Wir sehen KI als Begleiter auf dem menschlichen Lebensweg, der emotionale Ausgeglichenheit, geistige Entwicklung und spirituelle Stärke unterstützen kann. Indem wir menschliche Herzlichkeit und künstliche Intelligenz verbinden, möchten wir zu Gemeinschaften beitragen, die von Zusammenhalt, Mitgefühl und Fortschritt geprägt sind."
+      "Eine Gesellschaft, in der Technologie menschliche Neugier, Freundlichkeit und den Wunsch nach persönlicher Weiterentwicklung stärkt."
     ],
     "homeAppTitle": "Eine mobile App und ein Marktplatz für Charaktererlebnisse",
     "homeApp": [
@@ -319,7 +337,9 @@
       "Besucher sollen mit einem Charakter sprechen, Fragen zum Produkt stellen und ein Angebot mit oder ohne LifeToy-Hardware kaufen können. Geplant sind digitale Charaktererlebnisse und physische Plüschtiere; jedes Angebot wird seinen Lieferumfang und die unterstützten Funktionen beschreiben. Die Kauffunktion des Marktplatzes ist geplant und noch nicht als vollständiger öffentlicher Dienst verfügbar."
     ],
     "marketplaceLink": "LifeToy und die Pläne für Partner entdecken",
-    "appLink": "Die LifeToy-App entdecken"
+    "appLink": "Die LifeToy-App entdecken",
+    "illustrationAlt": "Konzeptionelle LifeToy-Plattform mit Bearie, Sprachhardware, Firmware, Cloud-Diensten, Studio und Begleit-App.",
+    "illustrationDisclosure": "Produktillustrationen. Hardware-Integration und Oberflächen unterscheiden sich je nach Produkt."
   },
   "zh": {
     "locale": "zh_CN",
@@ -343,8 +363,8 @@
     "secondary": "联系我们",
     "missionTitle": "以人为本的科技理念",
     "mission": [
-      "Khoda 在波斯语中意为上帝。这个名字表达了我们的信念：爱、知识和自我完善可以帮助人成长。我们心怀信仰，与 Khoda AI 一同成长。",
-      "Khoda AI LLC 由 Dr. Ahmad Reza Cheraghi 创立，将这一理念融入实际产品开发。我们希望人工智能成为日常生活中易于理解的一部分，让人及其选择处于核心位置。"
+      "构建高质量AI基础设施，帮助人们学习、创造和连接，并为企业提供工具，将有意义的AI体验带入日常生活。",
+      "我们相信AI能够为人类生活带来积极价值。它应鼓励好奇心、支持创造力，并为有意义的连接留出空间。我们以严谨工程、清晰责任和持续改进践行这一信念。"
     ],
     "homeProductTitle": "LifeToy：从玩具到可对话的角色",
     "homeProduct": [
@@ -382,7 +402,7 @@
     "founderAlt": "Khoda AI 创始人 Dr. Ahmad Reza Cheraghi",
     "platformEyebrow": "Khoda AI 旗下的 LifeToy",
     "platformHeading": "对话式 AI 玩具背后的技术。",
-    "platformIntro": "会说话的玩具是一套完整的联网体验：手中的实体物品、交流中的角色，以及维持体验的服务。Khoda AI 通过 LifeToy 将这些部分连接起来。",
+    "platformIntro": "我们开发连接玩具与角色的完整系统：专用语音硬件、嵌入式固件、实时AI集成、后端服务，以及创建和管理角色体验的工具。",
     "platformSecond": "本页从公司的角度介绍 AI 玩具和智能毛绒玩具的开发。最新产品示例、平台功能和合作伙伴入口请访问 LifeToy 网站。",
     "platformPrimary": "探索 LifeToy 平台",
     "meaningTitle": "AI 玩具与智能毛绒玩具的共同基础",
@@ -391,23 +411,31 @@
       "智能毛绒玩具将这一体验放入柔软的玩偶。毛绒外壳带来具体的设计要求，例如麦克风位置、扬声器声学效果、方便操作的控制部件，以及电子组件的合适空间。塑料玩具可以采用不同的内部布局，同时使用相同的角色软件。"
     ],
     "layersTitle": "从实体玩具到角色平台",
-    "layersIntro": "LifeToy 连接以下领域，帮助产品团队形成完整的体验。具体组合取决于项目需求。",
+    "layersIntro": "自然的角色体验需要协调聆听、轮流发言、打断处理和语音播放。我们在设备、固件、AI服务与应用之间共同设计这些环节。每个产品版本分别验证服务集成与口语体验。",
     "layers": [
       [
-        "语音硬件",
-        "麦克风、扬声器、电源、控制部件和无线连接把实体玩具与对话连接起来。它们的位置与集成方式取决于玩具的外形和用途。"
+        "专用语音硬件",
+        "围绕实体玩具设计麦克风、扬声器、控制和连接功能。每次集成都评估空间、电源和声学条件。"
       ],
       [
-        "固件与连接",
-        "设备上的软件管理运行，并连接在线服务。设置、断线恢复和更新都是产品体验的一部分。"
+        "嵌入式固件",
+        "在支持的硬件上协调音频、连接、对话状态和更新。"
       ],
       [
-        "对话与角色",
-        "角色的声音、个性、故事和互动边界引导对话。语言选择和行为需要针对目标用户进行评估。"
+        "实时语音",
+        "语音到语音服务集成，将聆听和回应与角色的声音和对话行为连接起来。"
       ],
       [
-        "云服务、应用与 Studio",
-        "云服务支持联网体验，配套应用帮助用户设置和访问角色，LifeToy Studio 则为团队提供角色配置和管理工具。"
+        "后端与编排",
+        "通过会话授权、角色配置、用量核算和设备归属连接产品与服务。"
+      ],
+      [
+        "LifeToy Studio",
+        "从图片开始，塑造角色，选择声音与个性，管理可用状态和硬件分配。"
+      ],
+      [
+        "配套体验",
+        "发现角色、配对兼容硬件并查看对话历史。应用商店发布和实体产品供应状态分别确认。"
       ]
     ],
     "bearTitle": "Bearie 让这个想法变得具体",
@@ -459,7 +487,7 @@
     ],
     "visionTitle": "我们的愿景",
     "vision": [
-      "我们希望人工智能成为人生成长旅程中的伙伴，支持情绪平衡、知识发展和精神力量。通过将人心与人工智能结合，我们希望助力建立以团结、关爱和进步为基础的社区。"
+      "一个由技术增强人类好奇心、善意和持续成长愿望的社会。"
     ],
     "homeAppTitle": "移动应用与角色体验商城",
     "homeApp": [
@@ -480,6 +508,8 @@
       "计划中的访客流程是先与角色交谈、询问产品问题，再选择包含或不包含 LifeToy 硬件的产品。计划中的产品类型包括数字角色体验和实体毛绒玩具；每个商品页面将说明所含内容和支持的功能。商城购买功能仍在规划中，尚未作为完整的公开服务提供。"
     ],
     "marketplaceLink": "了解 LifeToy 及合作伙伴计划",
-    "appLink": "了解 LifeToy 移动应用"
+    "appLink": "了解 LifeToy 移动应用",
+    "illustrationAlt": "LifeToy平台示意图，展示Bearie、语音硬件、固件、云端服务、Studio与配套应用。",
+    "illustrationDisclosure": "产品示意图。硬件集成和界面因产品而异。"
   }
 }
